@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+  
+  --color-brand-dark: #f8fafc;
+  --color-brand-card: #ffffff;
+  --color-brand-cyan: #0891b2;
+  --color-brand-blue: #2563eb;
+  --color-brand-indigo: #4f46e5;
+  --color-brand-purple: #7c3aed;
+  --color-brand-pink: #db2777;
+}
+
+/* Base custom styles and global resets */
+html, body {
+  background-color: var(--color-brand-dark);
+  color: #334155;
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Custom glow animations for brain/neurology theme adjusted for light mode */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.08;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.15;
+    transform: scale(1.03);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 8s infinite ease-in-out;
+}
+
+@keyframes synapseLine {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.synapse-path {
+  stroke-dasharray: 10, 10;
+  animation: synapseLine 3.5s linear infinite;
+}
+
+/* Glassmorphism utility card base - light mode adapted */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(79, 70, 229, 0.3);
+  box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Code block adjustments (keeping terminal dark for contrast) */
+pre {
+  background-color: #0f141c;
+}
+code {
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
