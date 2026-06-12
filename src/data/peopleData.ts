@@ -33,7 +33,7 @@ export const facultyStaff: Person[] = [
     emails: ["bowusu-yaw@bwh.harvard.edu"],
     linkedin: "bernie-simone-owusu-yaw-30bb9023a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     imageUrl: "https://github.com/user-attachments/assets/fe93df3d-b4b0-47b0-acc2-16ec672fd55c",
-    researchInterests: "Gene Therapy, Neurodegenerative diseases, Focused Ultrasound",
+    researchInterests: "Gene Therapy, Neurodegenerative Diseases, Focused Ultrasound",
     funActivities: "Reading, Gym, Cooking, Singing"
   },
   {
@@ -43,8 +43,8 @@ export const facultyStaff: Person[] = [
     emails: ["bb1232@georgetown.edu", "baahkonadu@gmail.com"],
     linkedin: "benjamin-baah-konadu-od-58a430147",
     imageUrl: "https://github.com/user-attachments/assets/cc3d45c9-925c-4a2a-b4dd-9d462f2fde0c",
-    researchInterests: "Neuronal membrane proteasome, Neuroplasticity, Synaptic Plasticity, Proteomics, Experience-dependent Plasticity, BONCAT, Proteasome Activity",
-    funActivities: "Badminton, Chess, Classical music (singing and playing)"
+    researchInterests: "Neuronal Membrane Proteasome, Neuroplasticity, Synaptic Plasticity, Proteomics, Experience-dependent Plasticity, BONCAT, Proteasome Activity",
+    funActivities: "Badminton, Chess, Classical Music (Singing and Playing)"
   },
   {
     name: "Ama Boakye-Agyei",
@@ -116,7 +116,7 @@ export const facultyStaff: Person[] = [
     github: "Matthew-Oduamafu",
     imageUrl: "https://github.com/user-attachments/assets/3837d03a-ae9c-4bd1-85fa-1128081fed6d",
     researchInterests: "Federated Machine Learning, Precision Agriculture, AI-driven Embedded Systems, Autonomous Robotics",
-    funActivities: "Coding, Watching movies/documentaries"
+    funActivities: "Coding, Watching Movies/Documentaries"
   },
   {
     name: "Benjamin Appiah Yeboah",
@@ -126,7 +126,7 @@ export const facultyStaff: Person[] = [
     linkedin: "benjamin-yeboah-appiah",
     imageUrl: "https://github.com/user-attachments/assets/5430ea4a-2b9a-4895-a094-3aa455330ae4",
     researchInterests: "Computational Neuroscience, NeuroAI, Neuroimaging, Medical AI",
-    funActivities: "Video games, Playing football"
+    funActivities: "Video Games, Playing Football"
   },
   {
     name: "Elina Owusu, B.A",
@@ -136,7 +136,7 @@ export const facultyStaff: Person[] = [
     linkedin: "elina-owusu-2003",
     imageUrl: "https://github.com/user-attachments/assets/9572c291-508b-43a5-8312-9c6946dcf39e",
     researchInterests: "Cognitive Neuroscience, Behavioral Neuroscience, Psychology, Neuroanatomy, Developmental Neuroscience.",
-    funActivities: "Dancing, Theatre shows, Orchestra Events"
+    funActivities: "Dancing, Theatre Shows, Orchestra Events"
   }
 ];
 
