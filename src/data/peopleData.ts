@@ -176,6 +176,7 @@ export const advisors: Person[] = [
       "Executive Board Member, International Society of Paediatric Neurosurgery",
       "Member of Editorial Board, World Federation of Neurooncology Societies"
     ],
+    emails: ["teddytotimeh@gmail.com"],
     linkedin: "teddy-totimeh-61133514",
     imageUrl: "https://github.com/user-attachments/assets/8538b4dd-3afd-48b5-b960-b6bbfa5d1d1d"
   }

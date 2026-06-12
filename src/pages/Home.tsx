@@ -36,12 +36,20 @@ export const Home: React.FC = () => {
             {homeData.paragraphs[0]}
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-            <Link
-              to="/prep"
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScmKzDv_bC4TJ5mpgXc_FKKV_cPrlGJHNXuuCNLzS9qJOTg7g/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-indigo px-6 py-3.5 text-sm font-semibold text-white hover:opacity-95 transition-all duration-300 shadow-md shadow-brand-indigo/10"
             >
-              <span>Course Prep</span>
+              <span>Register Now</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </a>
+            <Link
+              to="/prep"
+              className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 px-6 py-3.5 text-sm font-semibold text-slate-700 transition-all duration-300 shadow-sm"
+            >
+              <span>Course Prep</span>
             </Link>
             <Link
               to="/git"
@@ -110,6 +118,27 @@ export const Home: React.FC = () => {
             );
           })}
         </div>
+      </section>
+
+      {/* Registration Call to Action */}
+      <section className="rounded-2xl bg-gradient-to-r from-brand-indigo/10 via-brand-purple/5 to-brand-cyan/10 border border-brand-indigo/10 p-8 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+        <div className="space-y-2 max-w-2xl text-center md:text-left">
+          <h3 className="font-display text-2xl font-bold text-slate-900">
+            Ready to Join the Masterclass?
+          </h3>
+          <p className="text-sm text-slate-600 leading-relaxed">
+            Register now to secure your spot for the Ghana Neuroscience Masterclass 2026. Admission is highly competitive.
+          </p>
+        </div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScmKzDv_bC4TJ5mpgXc_FKKV_cPrlGJHNXuuCNLzS9qJOTg7g/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-indigo px-6 py-3.5 text-sm font-semibold text-white hover:opacity-95 transition-all duration-300 shadow-md shadow-brand-indigo/10 whitespace-nowrap"
+        >
+          <span>Register Now</span>
+          <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+        </a>
       </section>
 
       {/* Capstones & Mentorship */}
