@@ -23,8 +23,8 @@ export const facultyStaff: Person[] = [
     emails: ["g.lowor@ufl.edu", "gracelowor@gmail.com"],
     github: "gracelowor",
     imageUrl: "https://github.com/user-attachments/assets/145c2fdf-505e-42c8-8620-e853bbc556cc",
-    researchInterests: "human neuroscience, electrophysiology, movement disorders, machine learning",
-    funActivities: "running, gym, singing/dancing"
+    researchInterests: "Human Neuroscience, Electrophysiology, Movement Disorders, Machine Learning, Human Behavior",
+    funActivities: "Running, Gym, Singing/Dancing"
   },
   {
     name: "Bernie Simone Owusu-Yaw, PhD",
@@ -52,8 +52,8 @@ export const facultyStaff: Person[] = [
     credentials: "PhD Student, Interdisciplinary Program in Neuroscience, George Mason University",
     emails: ["aboakyea@gmu.edu"],
     imageUrl: "https://github.com/user-attachments/assets/1b0f6d7d-345b-4d66-914f-cb357aaf3dee",
-    researchInterests: "Cognition and cognitive decline, animal behavior, mental disorders",
-    funActivities: "biking, gym, reading and writing"
+    researchInterests: "Cognition and Cognitive Decline, Animal Behavior, Mental Disorders",
+    funActivities: "Biking, Gym, Reading and Writing"
   },
   {
     name: "Chance Fleeting",
@@ -85,8 +85,8 @@ export const facultyStaff: Person[] = [
     emails: ["avaburgess@ufl.edu", "avaburgess2000@gmail.com"],
     linkedin: "avaburgess",
     imageUrl: "https://github.com/user-attachments/assets/e4159f8e-6f07-4dd3-962d-6a5866234a8f",
-    researchInterests: "human neuroscience, electrophysiology, neurological disorders, neuroethics, science policy, regulatory science",
-    funActivities: "Baking, skincare, nature walks/activities"
+    researchInterests: "Human Neuroscience, Electrophysiology, Neurological Disorders, Neuroethics, Science Policy, Regulatory Science",
+    funActivities: "Baking, Skincare, Nature walks/activities"
   },
   {
     name: "Wilson Komla",
@@ -105,8 +105,8 @@ export const facultyStaff: Person[] = [
     emails: ["no8260@princeton.edu", "naokantey002@gmail.com"],
     linkedin: "naa-akle-afriyie-okantey",
     imageUrl: "https://github.com/user-attachments/assets/9feb8f3d-21ad-4380-8dad-4c4c70fe8400",
-    researchInterests: "music, diaspora, new media, and sustainability",
-    funActivities: "Drawing, gym, and singing"
+    researchInterests: "Music, Diaspora, New Media, and Sustainability",
+    funActivities: "Drawing, Gym, and Singing"
   },
   {
     name: "Matthew Oduamafu",
@@ -115,8 +115,8 @@ export const facultyStaff: Person[] = [
     emails: ["mattoduamafu@gmail.com", "matthew.oduamafu@ashesi.edu.gh"],
     github: "Matthew-Oduamafu",
     imageUrl: "https://github.com/user-attachments/assets/3837d03a-ae9c-4bd1-85fa-1128081fed6d",
-    researchInterests: "Federated machine learning, precision agriculture, AI-driven embedded systems, autonomous robotics",
-    funActivities: "coding, watching movies/documentaries"
+    researchInterests: "Federated Machine Learning, Precision Agriculture, AI-driven Embedded Systems, Autonomous Robotics",
+    funActivities: "Coding, Watching movies/documentaries"
   },
   {
     name: "Benjamin Appiah Yeboah",
@@ -125,8 +125,8 @@ export const facultyStaff: Person[] = [
     emails: ["bayeboah24@st.knust.edu.gh"],
     linkedin: "benjamin-yeboah-appiah",
     imageUrl: "https://github.com/user-attachments/assets/5430ea4a-2b9a-4895-a094-3aa455330ae4",
-    researchInterests: "Computational neuroscience, NeuroAI, Neuroimaging, Medical AI",
-    funActivities: "Video games, playing football"
+    researchInterests: "Computational Neuroscience, NeuroAI, Neuroimaging, Medical AI",
+    funActivities: "Video games, Playing football"
   },
   {
     name: "Elina Owusu, B.A",
@@ -135,8 +135,8 @@ export const facultyStaff: Person[] = [
     emails: ["elinaowusuu@gmail.com"],
     linkedin: "elina-owusu-2003",
     imageUrl: "https://github.com/user-attachments/assets/9572c291-508b-43a5-8312-9c6946dcf39e",
-    researchInterests: "cognitive neuroscience, behavioral neuroscience, psychology, neuroanatomy, developmental neuroscience.",
-    funActivities: "dancing, theatre shows, orchestra events"
+    researchInterests: "Cognitive Neuroscience, Behavioral Neuroscience, Psychology, Neuroanatomy, Developmental Neuroscience.",
+    funActivities: "Dancing, Theatre shows, Orchestra Events"
   }
 ];
 
