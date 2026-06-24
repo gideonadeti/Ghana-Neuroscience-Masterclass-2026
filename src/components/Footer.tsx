@@ -41,14 +41,14 @@ export const Footer: FC = () => {
                   href="https://github.com/gracelowor/Ghana-Neuroscience-Masterclass-2026"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-400 hover:text-brand-indigo transition-colors"
+                  className="text-slate-500 hover:text-brand-indigo transition-colors"
                   aria-label="GitHub repository"
                 >
                   <Github className="h-4.5 w-4.5" />
                 </a>
                 <a
                   href="mailto:g.lowor@ufl.edu"
-                  className="text-slate-400 hover:text-brand-indigo transition-colors"
+                  className="text-slate-500 hover:text-brand-indigo transition-colors"
                   aria-label="Send email"
                 >
                   <Mail className="h-4.5 w-4.5" />
@@ -57,7 +57,7 @@ export const Footer: FC = () => {
                   href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-400 hover:text-brand-indigo transition-colors"
+                  className="text-slate-500 hover:text-brand-indigo transition-colors"
                   aria-label="Twitter / X"
                 >
                   <Twitter className="h-4.5 w-4.5" />
@@ -66,7 +66,7 @@ export const Footer: FC = () => {
                   href="https://linkedin.com/in/gracelowor"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-400 hover:text-brand-indigo transition-colors"
+                  className="text-slate-500 hover:text-brand-indigo transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-4.5 w-4.5" />
@@ -76,7 +76,7 @@ export const Footer: FC = () => {
 
             {/* Navigation Column */}
             <div className="flex flex-col space-y-3">
-              <span className="font-display font-bold text-slate-800 text-sm">Navigation</span>
+              <h3 className="font-display font-bold text-slate-800 text-sm">Navigation</h3>
               <div className="flex flex-col space-y-2 text-xs">
                 <Link to="/" className="hover:text-brand-indigo transition-colors">Home</Link>
                 <Link to="/prep" className="hover:text-brand-indigo transition-colors">Course Prep</Link>
@@ -87,7 +87,7 @@ export const Footer: FC = () => {
 
             {/* Contact Column */}
             <div className="flex flex-col space-y-3">
-              <span className="font-display font-bold text-slate-800 text-sm">Contact</span>
+              <h3 className="font-display font-bold text-slate-800 text-sm">Contact</h3>
               <div className="flex flex-col space-y-2 text-xs">
                 <a
                   href="mailto:g.lowor@ufl.edu"
@@ -110,7 +110,7 @@ export const Footer: FC = () => {
 
             {/* Program Column */}
             <div className="flex flex-col space-y-3">
-              <span className="font-display font-bold text-slate-800 text-sm">Program</span>
+              <h3 className="font-display font-bold text-slate-800 text-sm">Program</h3>
               <div className="flex flex-col space-y-2 text-xs">
                 <a
                   href="https://github.com/gracelowor/Ghana-Neuroscience-Masterclass-2026/wiki"
@@ -125,6 +125,7 @@ export const Footer: FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand-indigo transition-colors"
+                  aria-label="Registration (opens in new tab)"
                 >
                   Registration
                 </a>
@@ -142,7 +143,7 @@ export const Footer: FC = () => {
           </div>
 
           {/* Copyright bar */}
-          <div className="mt-10 pt-6 border-t border-slate-100 text-xs text-slate-400">
+          <div className="mt-10 pt-6 border-t border-slate-200 text-xs text-slate-500">
             &copy; {currentYear} Ghana Neuroscience Masterclass. All rights reserved.
           </div>
         </div>
