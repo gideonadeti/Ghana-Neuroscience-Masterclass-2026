@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import { useState, type FC } from "react";
 import { gitData } from "../data/gitData";
 import { CodeBlock } from "../components/CodeBlock";
 import { Terminal, Cpu, Info, Mail, Layers } from "lucide-react";
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
-export const GitGuide: React.FC = () => {
+export const GitGuide: FC = () => {
+  useDocumentTitle("Git Guide");
   const [activeTab, setActiveTab] = useState("macos");
 
   return (

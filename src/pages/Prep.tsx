@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect, type FC } from "react";
 import { prepSteps } from "../data/prepSteps";
 import { CheckCircle2, Circle, AlertCircle, RotateCcw, ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
-export const Prep: React.FC = () => {
+export const Prep: FC = () => {
+  useDocumentTitle("Course Prep");
   const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>(() => {
     const saved = localStorage.getItem("gnm_prep_checklist");
     if (saved) {
