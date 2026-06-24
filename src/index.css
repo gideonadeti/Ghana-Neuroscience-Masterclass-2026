@@ -15,14 +15,18 @@
 }
 
 /* Base custom styles and global resets */
-html, body {
+html {
   background-color: var(--color-brand-dark);
-  color: #334155;
-  font-family: var(--font-sans);
   scroll-behavior: smooth;
+  overflow-y: auto;
+}
+
+body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  color: #334155;
+  font-family: var(--font-sans);
 }
 
 /* Custom glow animations for brain/neurology theme adjusted for light mode */
