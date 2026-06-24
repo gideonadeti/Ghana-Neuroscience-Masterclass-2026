@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="relative min-h-screen bg-brand-dark text-slate-700 flex flex-col overflow-x-hidden">
+    <div className="relative min-h-screen bg-brand-dark text-slate-700 flex flex-col overflow-x-clip">
       {/* Soft background glowing gradient decorations adapted for light mode */}
       <div className="absolute top-[-5%] left-[-5%] h-[400px] w-[400px] rounded-full bg-brand-cyan/3 blur-[100px] pointer-events-none z-0 animate-pulse-glow" />
       <div className="absolute bottom-[-5%] right-[-5%] h-[500px] w-[500px] rounded-full bg-brand-indigo/3 blur-[120px] pointer-events-none z-0 animate-pulse-glow" />

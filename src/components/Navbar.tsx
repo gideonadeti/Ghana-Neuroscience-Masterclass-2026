@@ -52,9 +52,9 @@ export const Navbar: React.FC = () => {
               type="button"
               className="inline-flex items-center justify-center rounded-md p-1.5 text-slate-500 hover:bg-slate-100 hover:text-slate-900 focus:outline-none transition-colors duration-200"
               aria-controls="mobile-menu"
-              aria-expanded="true"
+              aria-expanded={isOpen}
             >
-              <span className="sr-only">Open menu</span>
+              <span className="sr-only">{isOpen ? "Close menu" : "Open menu"}</span>
               {isOpen ? <X className="h-5.5 w-5.5" /> : <Menu className="h-5.5 w-5.5" />}
             </button>
           </div>
